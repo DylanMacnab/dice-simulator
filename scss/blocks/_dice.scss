@@ -1,0 +1,56 @@
+// **************************************************
+// Name: dice.scss
+// Description: buttons styles, <a> & <button>
+// **************************************************
+
+
+// Standard Buttons
+// ------------------------
+
+.btn-main {
+  width: 200px;
+  padding: 20px;
+  border: none;
+  border-radius: 3px;
+  background: rgba(black, .15);
+  color: white;
+  &:hover {
+    background: rgba(black, .2);
+  }
+}
+
+.dice {
+  width: 200px;
+  height: 200px;
+  background: white;
+  border: 5px solid #eee;
+  border-radius: 8px;
+  margin: 2rem auto;
+}
+
+.dice-num {
+  padding-top: 70px;
+  font-size: 60px;
+  line-height: 1;
+}
+
+
+// Sides Input and Label
+// ------------------------
+
+.sides-label {
+  color: white;
+  font-size: 13px;
+}
+
+.sides-input {
+  display: inline-block;
+  margin-left: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  width: 75px;
+  border: none;
+  background: rgba(black, .15);
+  color: white;
+}

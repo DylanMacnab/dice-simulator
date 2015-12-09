@@ -1,0 +1,1 @@
+function printNumber(e){var t=document.getElementById("placeholder");t.innerHTML=e}var button=document.getElementById("button");button.addEventListener("click",function(){var e=document.getElementById("sidesInput").value;dice.setSides(e);var t=Math.floor(10*Math.random())+1,n=0,r=setInterval(function(){n===t&&clearInterval(r);var e=dice.roll();printNumber(e),n++},100)});
