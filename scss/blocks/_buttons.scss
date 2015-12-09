@@ -9,11 +9,14 @@
 
 .btn-main {
   width: 200px;
-  padding: 15px 30px;
+  padding: 20px;
   border: none;
   border-radius: 3px;
-  background: tomato;
+  background: rgba(black, .15);
   color: white;
+  &:hover {
+    background: rgba(black, .2);
+  }
 }
 
 .dice {
@@ -23,7 +26,6 @@
   border: 5px solid #eee;
   border-radius: 8px;
   margin: 2rem auto;
-  clear: both;
 }
 
 .dice-num {
