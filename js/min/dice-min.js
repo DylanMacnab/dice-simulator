@@ -1,0 +1,1 @@
+function Dice(){this.sides=6,this.setSides=function(i){this.sides=i},this.roll=function(){var i=Math.floor(Math.random()*this.sides)+1;return i}}var dice=new Dice;

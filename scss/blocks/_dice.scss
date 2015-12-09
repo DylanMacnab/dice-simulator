@@ -1,5 +1,5 @@
 // **************************************************
-// Name: button.scss
+// Name: dice.scss
 // Description: buttons styles, <a> & <button>
 // **************************************************
 
@@ -32,4 +32,25 @@
   padding-top: 70px;
   font-size: 60px;
   line-height: 1;
+}
+
+
+// Sides Input and Label
+// ------------------------
+
+.sides-label {
+  color: white;
+  font-size: 13px;
+}
+
+.sides-input {
+  display: inline-block;
+  margin-left: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  width: 75px;
+  border: none;
+  background: rgba(black, .15);
+  color: white;
 }
