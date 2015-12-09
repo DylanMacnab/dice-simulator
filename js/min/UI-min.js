@@ -1,0 +1,1 @@
+function printNumber(n){var t=document.getElementById("placeholder");t.innerHTML=n}var button=document.getElementById("button");button.onclick=function(){var n=dice.roll();printNumber(n)};

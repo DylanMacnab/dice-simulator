@@ -6,3 +6,28 @@
 
 // Standard Buttons
 // ------------------------
+
+.btn-main {
+  width: 200px;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 3px;
+  background: tomato;
+  color: white;
+}
+
+.dice {
+  width: 200px;
+  height: 200px;
+  background: white;
+  border: 5px solid #eee;
+  border-radius: 8px;
+  margin: 2rem auto;
+  clear: both;
+}
+
+.dice-num {
+  padding-top: 70px;
+  font-size: 60px;
+  line-height: 1;
+}

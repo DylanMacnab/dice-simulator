@@ -7,7 +7,9 @@
 // Container for general page content
 // ---------------------------
 
-
-// .container--content { }
-
-//.container--wide { }
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 100px;
+  text-align: center;
+}
