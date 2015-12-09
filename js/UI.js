@@ -5,8 +5,7 @@ function printNumber(number) {
 }
 
 var button = document.getElementById("button");
-
-button.onclick = function() {
+button.addEventListener("click", function(){
   var result = dice.roll();
   printNumber(result);
-};
+});

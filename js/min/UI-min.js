@@ -1,1 +1,1 @@
-function printNumber(n){var t=document.getElementById("placeholder");t.innerHTML=n}var button=document.getElementById("button");button.onclick=function(){var n=dice.roll();printNumber(n)};
+function printNumber(t){var e=document.getElementById("placeholder");e.innerHTML=t}var button=document.getElementById("button");button.addEventListener("click",function(){var t=dice.roll();printNumber(t)});
